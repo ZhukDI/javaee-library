@@ -1,0 +1,53 @@
+body {
+    background: url(../images/login-background.jpg) no-repeat;
+    /*background-size: 100%;*/
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    /*background-color: #eaeaea;*/
+    margin: 50px;
+}
+
+.main {
+    background-color: #fff;
+    width: 800px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 76px;
+    height: 77px;
+    align: middle;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+}
+
+.login_form {
+    text-align: center;
+    padding: 20px;
+}
+
+.login_div {
+    width:350px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.footer {
+    color:#cccccc;
+    text-align: center;
+    margin-top: 40px;
+}
