@@ -1,0 +1,22 @@
+{
+  "name": "libraty",
+  "version": "1.0.0",
+  "description": "java-ee web-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhukDI/javaee-library.git"
+  },
+  "author": "ZhukDI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhukDI/javaee-library/issues"
+  },
+  "homepage": "https://github.com/ZhukDI/javaee-library#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
