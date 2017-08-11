@@ -1,53 +1,52 @@
 body {
-    background: url(../images/login-background.jpg) no-repeat;
-    /*background-size: 100%;*/
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    /*background-color: #eaeaea;*/
-    margin: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #eee;
 }
 
-.main {
-    background-color: #fff;
-    width: 800px;
-    min-height: 450px;
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
     margin: 0 auto;
-    padding: 20px;
+}
+.form-signin .form-signin-heading {
+    margin-bottom: 10px;
 }
 
-.logo {
-    width: 76px;
-    height: 77px;
-    align: middle;
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 10px;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 10px;
 }
 
-.title {
-    color: #000;
+.form-signin .headerLogo {
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
 }
 
-.text {
-    text-align: center;
+.navbar-brand .logo {
+    height: 25px;
+    margin-top: -3px;
+    margin-right: 5px;
 }
 
-.login_form {
-    text-align: center;
-    padding: 20px;
-}
-
-.login_div {
-    width:350px;
-    border: 1px solid #eaeaea;
-    margin: 0 auto;
-    padding:10px;
-}
-
-.footer {
-    color:#cccccc;
-    text-align: center;
-    margin-top: 40px;
+.menu .menu_header {
+    padding-left: .5em;
 }
