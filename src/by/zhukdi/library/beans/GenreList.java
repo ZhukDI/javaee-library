@@ -20,9 +20,10 @@ public class GenreList {
         try {
             connection = Database.getConnection();
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT * FROM library.genre");
+            resultSet = statement.executeQuery("SELECT * FROM genre ORDER BY name");
             while (resultSet.next()) {
                 Genre genre = new Genre();
+                genre.setId(resultSet.getLong("id"));
                 genre.setName(resultSet.getString("name"));
                 genreList.add(genre);
             }

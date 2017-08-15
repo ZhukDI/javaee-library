@@ -20,9 +20,10 @@ public class AuthorList {
         try {
             connection = Database.getConnection();
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT * FROM library.author");
+            resultSet = statement.executeQuery("SELECT * FROM author ORDER BY fio");
             while (resultSet.next()) {
                 Author author = new Author();
+                author.setId(resultSet.getLong("id"));
                 author.setName(resultSet.getString("fio"));
                 authorList.add(author);
             }

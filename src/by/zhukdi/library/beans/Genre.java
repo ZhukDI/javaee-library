@@ -1,13 +1,24 @@
 package by.zhukdi.library.beans;
 
 public class Genre {
+
+    private long id;
     private String name;
 
     public Genre() {
     }
 
-    public Genre(String name) {
+    public Genre(String name, long id) {
         this.name = name;
+        this.id = id;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {
