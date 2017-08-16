@@ -32,7 +32,7 @@ public class BookList {
                 book.setPublishDate(resultSet.getDate("publish_year"));
                 book.setPublisher(resultSet.getString("publisher"));
                 book.setAuthor(resultSet.getString("author"));
-                book.setImage(new ImageIcon(resultSet.getBytes("image")).getImage());
+                book.setImage(resultSet.getBytes("image"));
                 bookList.add(book);
             }
         } catch (SQLException ex) {
