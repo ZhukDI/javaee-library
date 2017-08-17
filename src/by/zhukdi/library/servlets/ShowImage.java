@@ -11,9 +11,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
-/**
- * Created by Админ on 16.08.2017.
- */
 @WebServlet(name = "ShowImage", urlPatterns = {"/ShowImage"})
 public class ShowImage extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

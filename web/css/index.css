@@ -1,5 +1,4 @@
 body {
-    padding-top: 100px;
     padding-bottom: 40px;
     background-color: #eee;
 }
@@ -8,6 +7,7 @@ body {
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .form-signin .form-signin-heading {
     margin-bottom: 10px;
@@ -17,7 +17,7 @@ body {
     position: relative;
     height: auto;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10px;
     font-size: 16px;
 }
@@ -49,4 +49,26 @@ body {
 
 .menu .menu_header {
     padding-left: .5em;
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.card-title {
+    margin-bottom: 2px;
+}
+
+.card-text {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-block {
+    padding-top: 8px;
+    padding-bottom: 5px;
 }

@@ -29,7 +29,7 @@ public class BookList {
                 book.setGenre(resultSet.getString("genre"));
                 book.setIsbn(resultSet.getString("isbn"));
                 book.setPageCount(resultSet.getInt("page_count"));
-                book.setPublishDate(resultSet.getDate("publish_year"));
+                book.setPublishDate(resultSet.getInt("publish_year"));
                 book.setPublisher(resultSet.getString("publisher"));
                 book.setAuthor(resultSet.getString("author"));
                 book.setImage(resultSet.getBytes("image"));
