@@ -5,6 +5,7 @@
     <nav class="bg-faded sidebar">
         <ul class="nav nav-pills flex-column">
             <jsp:useBean id="genreList" class="by.zhukdi.library.beans.GenreList" scope="application"/>
+            <li class="nav-item"><a class="nav-link" href="books.jsp?genre_id=0">All books</a></li>
             <%
                 for (Genre genre : genreList.getGenreList()) {
             %>

@@ -72,3 +72,7 @@ body {
     padding-top: 8px;
     padding-bottom: 5px;
 }
+
+.nav-pills .nav-link {
+    text-decoration: underline;
+}
