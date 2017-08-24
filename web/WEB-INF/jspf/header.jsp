@@ -16,8 +16,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><img src="../images/books_300.png" class="logo">Library</a>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <%--<a class="navbar-brand" href="#">--%>
+            <%--<img src="../images/books_300.png" width="30" height="30" class="d-inline-block align-top" alt="">--%>
+            <%--Library--%>
+        <%--</a>--%>
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -32,9 +35,5 @@
                     <a class="nav-link" href="#">Help</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
