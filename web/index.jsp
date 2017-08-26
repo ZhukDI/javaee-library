@@ -11,6 +11,7 @@
         <!-- Bootstrap CSS -->
     </head>
     <body>
+        <%session.invalidate(); %>
         <div class="container">
             
             <form class="form-signin" action="pages/main.jsp" method="post">
@@ -18,10 +19,12 @@
                     <img class="logo" src="images/books_100.png" alt="">
                 </p>
                 <h2 class="form-signin-heading">Please sign in</h2>
-                <label for="inputEmail" class="sr-only">Email address</label>
-                <input type="email" id="inputEmail" class="form-control" name="username" placeholder="Email address" required autofocus>
+                <label for="Username" class="sr-only">Username</label>
+                <input type="text" class="form-control" id="Username" placeholder="Username" name="username" aria-describedby="basic-addon1">
+                <%--<label for="inputEmail" class="sr-only">Email address</label>--%>
+                <%--<input type="email" id="inputEmail" class="form-control" name="username" placeholder="Email address" required autofocus>--%>
                 <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             </form>
     
